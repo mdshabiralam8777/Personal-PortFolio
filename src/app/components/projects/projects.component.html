@@ -1,0 +1,24 @@
+<button mdbBtn color="primary" class="waves-light btn btn-block animated wobble font-weight-bold" type="button" (click)="test.toggle()" mdbWavesEffect>
+    P r o j e c t s
+  </button>
+  <div class="" mdbCollapse #test="bs-collapse">
+    <div class="card incard heavy-rain-gradient" style="width: 100%;">
+      <div class="card-body">
+        <span class="card-title h5" style="color: #212121;">Cinemepedia</span>
+        <p class="card-text">CinemaPedia is a Community where you can find details of a film ,cast & crew.It is especially dedicated to moviebuffs. Connecting & educating people through theart of cinema. Along with this this web app also integrated with the movies merchandise like you can order accessories related to movies......!!!</p>
+        <p class="card-text">Technology : <span class="text-muted">Angular</span></p>
+        <a  class="card-text" target="_blank" href="#">Project <i
+          class="fas fa-code-branch"></i></a>
+      </div>
+    </div>
+    <div class="card incard heavy-rain-gradient" style="width: 100%;">
+      <div class="card-body">
+        <span class="card-title h5" style="color: #212121;">MovieMania</span>
+        <p class="card-text">This is an Android application that helps user to search all categories of movies and then it'll show you the details of that movie</p>
+        <p class="card-text">Technology : <span class="text-muted">Android Studio - Java</span></p>
+        <a  class="card-text" target="_blank" href="3">Project <i
+          class="fas fa-code-branch"></i></a>
+      </div>
+    </div>
+    <button mdbBtn type="button" color="primary" class="btn btn-sm animated pulse infinite" outline="true" mdbWavesEffect routerLinkActive="active" routerLink="/projects">More Projects <i class="fas fa-caret-right"></i></button>
+  </div>
