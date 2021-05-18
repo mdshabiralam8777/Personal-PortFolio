@@ -11,7 +11,8 @@ import { ProjectsComponent } from './components/projects/projects.component';
 import { ContactsComponent } from './components/contacts/contacts.component';
 import {MatProgressBarModule} from '@angular/material/progress-bar';
 import { MoreProjectsComponent } from './components/more-projects/more-projects.component';
-import { ExperienceComponent } from './components/experience/experience.component'; 
+import { ExperienceComponent } from './components/experience/experience.component';
+import { FooterComponent } from './footer/footer.component'; 
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { ExperienceComponent } from './components/experience/experience.componen
     ProjectsComponent,
     ContactsComponent,
     MoreProjectsComponent,
-    ExperienceComponent
+    ExperienceComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
