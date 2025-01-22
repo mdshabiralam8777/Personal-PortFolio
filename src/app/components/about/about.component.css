@@ -2,7 +2,8 @@
     /* The image used */
 background-image: url("src\assets\images\backgimg.jpg");
 /* Full height */
-height: 100%;
+width: auto;
+height: auto;
 /* Center and scale the image nicely */
 background-position: center;
 background-repeat: no-repeat;
@@ -47,10 +48,10 @@ b{
   color: #283593 ;
   padding-left: 5vh;
 }
-.fab{
+.fab,.fa-envelope-square{
 width: 20%;
 font-size: 45px;
 }
-.fab:hover:not(.active) {
+/* .fab:hover:not(.active),.fa-envelope-square:hover:not(.active) {
 font-size: 55px;
-}
+} */
