@@ -13,7 +13,7 @@
      your first set of images. */
   width: 200%; 
   /* The '30s' controls speed. Linear means no acceleration/deceleration. */
-  animation: scroll 10s alternate infinite;
+  animation: scroll 30s alternate infinite;
 }
 
 /* Each logo "slide" */
