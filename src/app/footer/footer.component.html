@@ -8,3 +8,16 @@
   </div>
 </footer> -->
 <!-- Copyright -->
+<div class="slider-container">
+  <div class="slider-track">
+    <!-- First batch of logos -->
+    <div class="slide" *ngFor="let logo of techLogos">
+      <img [src]="logo.src" [alt]="logo.name" />
+    </div>
+    <!-- Duplicate batch of logos -->
+    <div class="slide" *ngFor="let logo of techLogos">
+      <img [src]="logo.src" [alt]="logo.name" />
+    </div>
+  </div>
+</div>
+

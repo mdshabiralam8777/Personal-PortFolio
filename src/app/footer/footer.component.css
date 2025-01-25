@@ -1,0 +1,51 @@
+.slider-container {
+  margin-top: 40px;
+  position: relative;
+  width: 100%;
+  height: 120px;   /* Adjust as needed for your logo size */
+  overflow: hidden;
+  background-color: transparent; /* No background */
+}
+
+.slider-track {
+  display: flex;
+  /* 2 copies of the images, so total width is effectively 2x
+     your first set of images. */
+  width: 200%; 
+  /* The '30s' controls speed. Linear means no acceleration/deceleration. */
+  animation: scroll 15s linear infinite;
+}
+
+/* Each logo "slide" */
+.slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 0 0 auto; /* prevent shrinking */
+}
+
+/* The circular logos */
+.slide img {
+  width: 48px;             /* fixed width for uniform circles */
+  height: 48px;            /* same as width */
+  border-radius: 10%;      /* make it round */
+  /* object-fit: cover;       fill the circle nicely */
+  object-fit: scale-down;
+  margin: 0 1rem;          /* space between logos */
+}
+
+/* Keyframes for the continuous scroll */
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    /*
+     Move the track left by 50% of its total width (200%),
+     effectively one "set" of logos. At the end of the animation,
+     we reset to 0%. Visually, the second set is identical to the first,
+     so there's no noticeable jump.
+    */
+    transform: translateX(-50%);
+  }
+}

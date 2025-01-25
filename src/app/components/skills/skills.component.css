@@ -1,0 +1,8 @@
+.fe-skill-desgin {
+  border: 1px solid #4285f4;
+  border-radius: 5px;
+  padding: 5px;
+  box-shadow: 1px 12px 14px -4px rgba(0,0,0,0.14);
+  -webkit-box-shadow: 1px 12px 14px -4px rgba(0,0,0,0.14);
+  -moz-box-shadow: 1px 12px 14px -4px rgba(0,0,0,0.14);
+}
