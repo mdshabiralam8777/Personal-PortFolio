@@ -12,7 +12,8 @@ import { ContactsComponent } from './components/contacts/contacts.component';
 import {MatProgressBarModule} from '@angular/material/progress-bar';
 import { MoreProjectsComponent } from './components/more-projects/more-projects.component';
 import { ExperienceComponent } from './components/experience/experience.component';
-import { FooterComponent } from './footer/footer.component'; 
+import { FooterComponent } from './footer/footer.component';
+import { CertificationsComponent } from './components/certifications/certifications.component'; 
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { FooterComponent } from './footer/footer.component';
     ContactsComponent,
     MoreProjectsComponent,
     ExperienceComponent,
-    FooterComponent
+    FooterComponent,
+    CertificationsComponent
   ],
   imports: [
     BrowserModule,
