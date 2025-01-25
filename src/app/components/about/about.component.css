@@ -52,6 +52,6 @@ b{
 width: 20%;
 font-size: 45px;
 }
-/* .fab:hover:not(.active),.fa-envelope-square:hover:not(.active) {
-font-size: 55px;
-} */
+a:hover, a i:hover {
+  cursor: pointer;
+}
