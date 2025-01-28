@@ -1,34 +1,60 @@
-<button mdbBtn color="primary" class="waves-light btn btn-block animated wobble font-weight-bold" type="button" (click)="test.toggle()" mdbWavesEffect>
-    E d u c a t i o n
-  </button> 
-  <div class="" mdbCollapse #test="bs-collapse">
-    <div class="card incard heavy-rain-gradient mb-1" style="width: 100%;">
-      <div class="card-body">
-        <h5 class="card-title">B.Tech in <span class="font-weight-bold">Computer Science and Engineering <br></span>St. Thomas' College of Engineering and Technology <br>[MAKAUT]</h5>
-        <h6 class="card-subtitle mb-2 text-muted">August 2020</h6>
-        <p class="card-text">CGPA : 8.17/10</p>
-        <p class="card-text"><span class="h6">Relevant Coursework :</span> Data Structure and Algorithm, DBMS, Software Engineering .</p>
-        <a  class="card-text" target="_blank" href="https://drive.google.com/file/d/1AJLXPnV0fevvgozSg5L4uwRAIXORq-_i/view?usp=sharing">Marksheet <i class="far fa-paper-plane small"></i></a>
+<button
+  mdbBtn
+  color="primary"
+  class="waves-light btn btn-block animated wobble font-weight-bold"
+  type="button"
+  (click)="test.toggle()"
+  mdbWavesEffect
+>
+  E d u c a t i o n
+</button>
+<div class="" mdbCollapse #test="bs-collapse">
+  <div class="card incard heavy-rain-gradient mb-1" style="width: 100%">
+    <div class="card-body text-left">
+      <h3>
+        <i class="fas fa-graduation-cap pr-1"></i
+        ><strong>Bachelor of Technology</strong> in
+        <span class="text-muted h4">Computer Science ( CSE )</span>
+      </h3>
+      <p class="h6 text-muted">
+        <i class="fas fa-calendar-alt pr-1"></i>Jul, 2016 - Jul, 2020
+      </p>
+      <p class="h6">
+        <i class="fas fa-user-graduate pr-1"></i>CGPA:
+        <span class="text-muted">8.17/10</span>
+      </p>
+      <div class="h6 mb-4">
+        <i class="fas fa-university pr-1"></i> College & University:
       </div>
+      <div class="d-flex justify-content-around">
+        <a href="https://www.stcet.ac.in/" target="_blank">
+          <img
+            src="/assets/images/STCET-Logo.png"
+            alt="STCET"
+            height="auto"
+            width="100px"
+          />
+          <p class="text-center"><strong>STCET</strong></p>
+        </a>
+
+        <a href="http://www.makautwb.ac.in/" target="_blank">
+          <img
+            src="/assets/images/makaut.png"
+            alt="MAKAUT"
+            height="auto"
+            width="100px"
+          />
+          <p class="text-center"><strong>MAKAUT</strong></p>
+        </a>
+      </div>
+      <div class="text-center mt-4">
+        <a
+          class="card-text"
+          target="_blank"
+          href="https://drive.google.com/file/d/1AJLXPnV0fevvgozSg5L4uwRAIXORq-_i/view?usp=sharing"
+          >Marksheet <i class="pl-1 far fa-paper-plane small"></i
+        ></a>
+      </div>
+    </div>
   </div>
-<!--  -->
-    <div class="card incard heavy-rain-gradient mb-1" style="width: 100%;">
-      <div class="card-body">
-        <h5 class="card-title">Class XII , Patna Muslim High School <br>[BSEB]</h5>
-        <h6 class="card-subtitle mb-2 text-muted">2016</h6>
-        <p class="card-text">Percentage: 74%</p>
-        <p class="card-text">Percentile: 99.1%</p>
-        <p class="card-text">Relevant Coursework: Science</p>
-        <a  class="card-text" target="_blank" href="https://drive.google.com/file/d/17TBmtIqUqMo2sT3VRFp8lpG4xmo8_E4W/view?usp=sharing">Marksheet <i class="far fa-paper-plane small"></i></a>
-      </div>
-    </div>
-    <!--  -->
-    <div class="card incard heavy-rain-gradient" style="width: 100%;">
-      <div class="card-body">
-        <h5 class="card-title">Class X , A P Deptt. Calcutta Madrasah <br>[WBBSE]</h5>
-        <h6 class="card-subtitle mb-2 text-muted">2014</h6>
-        <p class="card-text">Percentage: 86%</p>
-        <a  class="card-text" target="_blank" href="https://drive.google.com/file/d/1d9dqDZSojlseUHTzD1CEp0YC0hMjW89c/view?usp=sharing">Marksheet <i class="far fa-paper-plane small"></i></a>
-      </div>
-    </div>
 </div>
