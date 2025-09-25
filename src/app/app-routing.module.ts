@@ -4,12 +4,12 @@ import { AboutComponent } from './components/about/about.component';
 import { MoreProjectsComponent } from './components/more-projects/more-projects.component';
 
 const routes: Routes = [
-   {path:'',component:AboutComponent},
-   {path:'projects',component:MoreProjectsComponent}
+  { path: '', component: AboutComponent },
+  { path: 'projects', component: MoreProjectsComponent },
 ];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes)],
-  exports: [RouterModule]
+  imports: [RouterModule.forRoot(routes, { relativeLinkResolution: 'legacy' })],
+  exports: [RouterModule],
 })
-export class AppRoutingModule { }
+export class AppRoutingModule {}
